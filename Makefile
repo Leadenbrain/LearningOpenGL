@@ -1,8 +1,9 @@
+## BadproG.com
 ## Makefile
 
 ## Variables
 NAME        = OGL_Practice.exe
-SRC         = window.cpp renderer.cpp IndexBuffer.cpp VertexBuffer.cpp VertexArray.cpp shader.cpp
+SRC         = window.cpp renderer.cpp IndexBuffer.cpp VertexBuffer.cpp VertexArray.cpp shader.cpp Texture.cpp stb_image.cpp
 OBJ         = $(SRC:.cpp=.o)
 INCLUDES    = -I"C:\MinGW\mingw64\include"
 LIBS        = -L"C:\MinGW\mingw64\lib"
