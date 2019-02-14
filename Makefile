@@ -1,4 +1,3 @@
-## BadproG.com
 ## Makefile
 
 ## Variables
